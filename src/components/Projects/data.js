@@ -1,30 +1,32 @@
-// data.js
+import img01 from './images/01.jpg';
+import img02 from './images/02.jpg';
+import img03 from './images/03.jpg';
+import img04 from './images/04.jpg';
+
 export const projects = [
   {
     url: "https://normansrgn.github.io/courswork_layout/",
     title: "Example Project",
-    disc: "A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.",
-    img: "/images/01.jpg", // Путь относительно папки public
+    disc: "Веб-приложение для визуализации персонализированных данных Spotify. Просматривайте ваших лучших исполнителей, лучшие треки, недавно проигрываемые треки и подробную аудиоинформацию о каждом треке. Создавайте и сохраняйте новые плейлисты с рекомендованными треками на основе ваших существующих плейлистов и многое другое.",
+    img: img01, // Импортированное изображение
   },
   {
     url: "https://normansrgn.github.io/courswork_layout/",
     title: "Example Project",
-    disc: "A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.",
-    img: "/images/02.jpg", // Путь относительно папки public
+    disc: "Веб-приложение для визуализации персонализированных данных Spotify. Просматривайте ваших лучших исполнителей, лучшие треки, недавно проигрываемые треки и подробную аудиоинформацию о каждом треке. Создавайте и сохраняйте новые плейлисты с рекомендованными треками на основе ваших существующих плейлистов и многое другое.",
+    img: img02, // Импортированное изображение
   },
-
   {
     url: "https://normansrgn.github.io/courswork_layout/",
     title: "Example Project",
-    disc: "A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.",
-    img: "/images/03.jpg", // Путь относительно папки public
+    disc: "Веб-приложение для визуализации персонализированных данных Spotify. Просматривайте ваших лучших исполнителей, лучшие треки, недавно проигрываемые треки и подробную аудиоинформацию о каждом треке. Создавайте и сохраняйте новые плейлисты с рекомендованными треками на основе ваших существующих плейлистов и многое другое.",
+    img: img03, // Импортированное изображение
   },
-
   {
     url: "https://normansrgn.github.io/courswork_layout/",
     title: "Example Project",
-    disc: "A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.",
-    img: "/images/04.jpg", // Путь относительно папки public
+    disc: "Веб-приложение для визуализации персонализированных данных Spotify. Просматривайте ваших лучших исполнителей, лучшие треки, недавно проигрываемые треки и подробную аудиоинформацию о каждом треке. Создавайте и сохраняйте новые плейлисты с рекомендованными треками на основе ваших существующих плейлистов и многое другое.",
+    img: img04, // Импортированное изображение
   },
   // Добавьте другие проекты по мере необходимости
 ];
