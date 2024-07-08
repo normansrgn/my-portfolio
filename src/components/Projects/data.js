@@ -1,7 +1,7 @@
-import img01 from './images/01.jpg';
-import img02 from './images/02.jpg';
-import img03 from './images/03.jpg';
-import img04 from './images/04.jpg';
+import img01 from "./images/01.jpg";
+import img02 from "./images/02.jpg";
+import img03 from "./images/03.jpg";
+import img04 from "./images/04.jpg";
 
 export const projects = [
   {
@@ -11,19 +11,19 @@ export const projects = [
     img: img01, // Импортированное изображение
   },
   {
-    url: "https://normansrgn.github.io/courswork_layout/",
+    url: "https://normansrgn.github.io/dqStore/",
     title: "Example Project",
     disc: "Веб-приложение для визуализации персонализированных данных Spotify. Просматривайте ваших лучших исполнителей, лучшие треки, недавно проигрываемые треки и подробную аудиоинформацию о каждом треке. Создавайте и сохраняйте новые плейлисты с рекомендованными треками на основе ваших существующих плейлистов и многое другое.",
     img: img02, // Импортированное изображение
   },
   {
-    url: "https://normansrgn.github.io/courswork_layout/",
+    url: "https://normansrgn.github.io/0p1umusic/",
     title: "Example Project",
     disc: "Веб-приложение для визуализации персонализированных данных Spotify. Просматривайте ваших лучших исполнителей, лучшие треки, недавно проигрываемые треки и подробную аудиоинформацию о каждом треке. Создавайте и сохраняйте новые плейлисты с рекомендованными треками на основе ваших существующих плейлистов и многое другое.",
     img: img03, // Импортированное изображение
   },
   {
-    url: "https://normansrgn.github.io/courswork_layout/",
+    url: "https://normansrgn.github.io/developmentLayout/",
     title: "Example Project",
     disc: "Веб-приложение для визуализации персонализированных данных Spotify. Просматривайте ваших лучших исполнителей, лучшие треки, недавно проигрываемые треки и подробную аудиоинформацию о каждом треке. Создавайте и сохраняйте новые плейлисты с рекомендованными треками на основе ваших существующих плейлистов и многое другое.",
     img: img04, // Импортированное изображение

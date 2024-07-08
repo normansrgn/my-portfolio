@@ -15,8 +15,32 @@
       gap: 30px;
 
       & li {
+        position: relative;
         cursor: pointer;
         font-size: 20px;
+        transition: color 0.3s ease; /* Добавляем плавный переход цвета */
+
+        &:hover {
+          color: white; /* Изменяем цвет текста при наведении */
+        }
+
+        &::after {
+          content: "";
+          position: absolute;
+          left: 0;
+          bottom: -2px; /* Расстояние подчеркивания от текста */
+          width: 100%;
+          height: 2px; /* Толщина подчеркивания */
+          background-color: #9255ce;
+          transform: scaleX(0); /* Начальное значение для анимации */
+          transform-origin: bottom right;
+          transition: transform 0.3s ease; /* Плавная анимация */
+        }
+
+        &:hover::after {
+          transform: scaleX(1); /* Разворачиваем подчеркивание при наведении */
+          transform-origin: bottom left;
+        }
       }
     }
   }
