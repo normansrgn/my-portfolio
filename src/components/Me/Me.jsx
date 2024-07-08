@@ -1,17 +1,24 @@
 import { Component } from "react";
 
 import { Container } from "react-bootstrap";
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 import "./__me.scss";
 
 import logo from "./logo.png";
 export default class Me extends Component {
+  componentDidMount() {
+    Aos.init({ duration: 1000 }); // Инициализация AOS с настройками
+  }
+
   render() {
     return (
       <me className="me">
         <Container className="me__container">
           <div className="me__logoBlock">
-            <img src={logo} alt="logo" />
-            <div className="me__logoText">
+            <img data-aos="fade-up" src={logo} alt="logo" />
+            <div data-aos="fade-up" className="me__logoText">
               <div className="me__minitext">A Developer who</div>
               <h1>
                 Judges a book by its <span> cover</span>...
@@ -23,7 +30,7 @@ export default class Me extends Component {
             </div>
           </div>
 
-          <div className="me_text_block">
+          <div className="me_text_block" data-aos="fade-up">
             <h2>I'm a Frontend Developer. </h2>
             <p>
               A self-taught UI/UX designer, functioning in the industry for 3+

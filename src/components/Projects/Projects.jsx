@@ -2,11 +2,15 @@ import React, { Component } from "react";
 import { Container } from "react-bootstrap";
 import "./__projects.scss";
 import { projects } from "./data";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 import ProjectCard from "./Project";
 
 export default class Projects extends Component {
   componentDidMount() {
+    Aos.init({ duration: 1000 });
+
     window.addEventListener("scroll", this.handleScroll);
     window.addEventListener("resize", this.handleScroll);
     this.handleScroll();

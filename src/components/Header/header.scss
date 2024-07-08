@@ -9,17 +9,21 @@
   }
 
   &__nav {
-
     & ol {
-        display: flex;
-        align-items: center;
-        gap: 30px;
+      display: flex;
+      align-items: center;
+      gap: 30px;
 
-        & li {
-            cursor: pointer;
-            font-size: 20px;
-
-        }
+      & li {
+        cursor: pointer;
+        font-size: 20px;
+      }
     }
+  }
+}
+
+@media (max-width: 700px) {
+  .header__nav {
+    display: none;
   }
 }
