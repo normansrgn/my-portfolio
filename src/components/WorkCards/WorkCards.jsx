@@ -7,7 +7,7 @@ import "./__workcards.scss";
 
 import WorkCard from "./WorkCard";
 
-export default class WorkCards extends Component {
+export default class WorkCakrds extends Component {
   render() {
     return (
       <section className="workcards">
