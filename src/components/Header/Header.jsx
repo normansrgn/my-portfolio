@@ -14,7 +14,7 @@ export default class Header extends Component {
   }
   render() {
     return (
-      <header className="header"  data-aos="fade-down">
+      <header className="header" data-aos="fade-down">
         <Container className="header__container">
           <a href="">
             <img src={logo} alt="" />
@@ -22,9 +22,9 @@ export default class Header extends Component {
 
           <nav className="header__nav">
             <ol>
-              <li>Home</li>
-              <li>About</li>
-              <li>Lab</li>
+              <li>
+                <a href="https://t.me/normansrgn"> Contact me</a>
+              </li>
             </ol>
           </nav>
 
