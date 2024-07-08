@@ -50,13 +50,12 @@
   &__prewe {
     & img {
       cursor: pointer;
-      max-width: 100%;
-
       border-radius: 10px; /* Закругленные углы (по желанию) */
-      transition: box-shadow 0.3s ease-in-out; /* Плавный переход при наведении */
-
+      max-width: 100%;
+      transition: box-shadow 0.3s ease-in-out !important; /* Плавный переход при наведении */
       &:hover {
         box-shadow: 0 0 26px 1px rgb(80 39 134);
+        // transition: box-shadow 0.3s ease-in-out; /* Плавный переход при наведении */
       }
     }
   }
