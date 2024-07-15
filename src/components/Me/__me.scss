@@ -1,5 +1,9 @@
 .me {
-  margin-top: 130px;
+
+  &__container {
+    margin-top: 130px;
+  }
+
   &__logoBlock {
     gap: 25px;
     display: flex;
