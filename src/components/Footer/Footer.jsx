@@ -24,7 +24,7 @@ export default class Footer extends Component {
             project in mind? Let's connect.
           </p>
 
-          <div className="footer__email">ibrhaimmemon930@gmail.com</div>
+          <div className="footer__email">normanmagic2004@gmail.com</div>
 
           <div className="footer__socials">
             <a href="https://www.instagram.com/normansrgn/">

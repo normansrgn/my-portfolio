@@ -23,7 +23,7 @@ export default class Header extends Component {
           <nav className="header__nav">
             <ol>
               <li>
-                <a href="https://t.me/normansrgn"> Contact me</a>
+                <a href="https://t.me/psibladeabuze"> Contact me</a>
               </li>
             </ol>
           </nav>

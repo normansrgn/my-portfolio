@@ -1,7 +1,7 @@
 .me {
 
   &__container {
-    margin-top: 130px;
+    margin-top: 90px;
   }
 
   &__logoBlock {
@@ -43,6 +43,13 @@
   }
 
   @media (max-width: 1005px) {
+
+    .me {
+
+      &__container {
+        margin-top: 40px;
+      }
+    }
     .logo_text_block h1 {
       width: auto;
     }
