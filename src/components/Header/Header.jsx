@@ -16,9 +16,11 @@ export default class Header extends Component {
     return (
       <header className="header" data-aos="fade-down">
         <Container className="header__container">
-          <a href="">
-            <img src={logo} alt="" />
-          </a>
+          <div className="header__logo">
+            <a href="">
+              <img src={logo} alt="" />
+            </a>
+          </div>
 
           <nav className="header__nav">
             <ol>

@@ -2,6 +2,8 @@
   background-color: #1a0b2e;
   padding: 14px;
 
+
+
   &__container {
     display: flex;
     justify-content: space-between;
@@ -49,5 +51,15 @@
 @media (max-width: 700px) {
   .header__nav {
     display: none;
+  }
+}
+
+@media (max-width: 550px) {
+  .header {
+    &__logo {
+      & img {
+        width: 70px;
+      }
+    }
   }
 }
