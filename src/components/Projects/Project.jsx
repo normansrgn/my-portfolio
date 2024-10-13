@@ -14,7 +14,7 @@ function ProjectCard(props) {
         <h1 className="projects__title">{props.title}</h1>
         <p className="projects__disc">{props.disc}</p>
       </div>
-      <div className="projects__prewe">
+      <div className="projects__prewe" data-aos="fade-up">
         <a href={props.url} target="_blank" rel="noreferrer">
           <img
             data-aos="fade-up"
