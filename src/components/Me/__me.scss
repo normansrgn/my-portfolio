@@ -1,5 +1,4 @@
 .me {
-
   &__container {
     margin-top: 90px;
   }
@@ -43,19 +42,23 @@
   }
 
   @media (max-width: 1005px) {
-
     .me {
-
       &__container {
         margin-top: 40px;
       }
     }
-    .logo_text_block h1 {
+    .logo_text_block h2 {
       width: auto;
+    }
+
+    .me_text_block h2 {
+      font-size: 34px;
+
     }
 
     .me_text_block p {
       width: auto;
+      font-size: 16px;
     }
   }
 
@@ -86,8 +89,16 @@
   }
 
   @media (max-width: 500px) {
-    .me__about p {
-      font-size: 16px;
+    .me {
+      &__about {
+        & p {
+          font-size: 1%;
+        }
+      }
+    }
+
+    .me .me_text_block p {
+      font-size: 10px;
     }
   }
 
