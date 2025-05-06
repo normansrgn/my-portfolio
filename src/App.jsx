@@ -15,7 +15,7 @@ function App() {
       <Header />
 
       <Me />
-      <WorkCards />
+      {/* <WorkCards /> */}
       <Skills />
       <Projects />
 

@@ -33,8 +33,7 @@ export default class Me extends Component {
           <div className="me_text_block" data-aos="fade-up">
             <h2>I'm a Frontend Developer. </h2>
             <p>
-              A self-taught frontend developer with over 3 years of industry
-              experience. I build dynamic and responsive web applications that
+              A self-taught frontend developer. I build dynamic and responsive web applications that
               balance user needs and business goals, ensuring both functionality
               and a seamless user experience.
             </p>
